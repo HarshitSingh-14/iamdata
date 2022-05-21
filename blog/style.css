@@ -1,13 +1,18 @@
 p.caption {
-  font-size: 0.9em;
-  font-style: italic;
-  color: grey;
-  margin-right: 10%;
-  margin-left: 10%;  
-  text-align: justify;
+    font-size: 0.9em;
+    font-style: italic;
+    color: grey;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: justify;
 }
 
-h1, .h1, h2, .h2, h3, .h3 {
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
     margin-top: 100px;
 }
 
@@ -19,18 +24,16 @@ h1 {
 pre {
     border: 0px solid #cccccc;
     border-radius: 0px;
- }
-
-a {
-  color: #69b3a2;
 }
 
-
+a {
+    color: #69b3a2;
+}
 
 .btn {
     border-width: 0 0px 0px 0px;
     font-weight: normal;
-    text-transform: ;
+    text-transform: uppercase;
 }
 
 .btn-default {
@@ -39,102 +42,106 @@ a {
     border-color: #69b3a2;
 }
 
-
-
 .main-container {
-    max-width: 100% !important;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.mycontent{
-      max-width: 900px !important;
-      margin-left: auto;
-      margin-right: auto;
-      font-family: 'Montserrat';
-      font-size: 130%;
-      line-height: 1.7;
-      padding-right: 15px;
-      padding-left: 15px;
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    #my-content {
+        display: block;
+    }
+    /* show it on small screens */
 }
 
-
-
-
-
-
-.mysubtitle{
-  color:grey;
-  font-family: 'Montserrat';
-  max-width: 300px;
-
+.mycontent {
+    max-width: 900px !important;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat';
+    font-size: 130%;
+    line-height: 1.7;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-
+.mysubtitle {
+    color: grey;
+    font-family: 'Montserrat';
+    max-width: 300px;
+}
 
 
 /* ---------- Button ----------------- */
+
 .btn {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 500;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
 }
 
 .btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
+    font-size: 18px;
+    padding: 20px 40px;
 }
 
 .btn-primary {
-  background-color: transparent;
-  border-color: #69b3a2;
-  color: #69b3a2;
-  border-width: medium;
+    background-color: transparent;
+    border-color: #69b3a2;
+    color: #69b3a2;
+    border-width: medium;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #69b3a2 !important;
-  border-color: #69b3a2 !important;
-  color: white;
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #69b3a2 !important;
+    border-color: #69b3a2 !important;
+    color: white;
 }
 
-.btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+.btn-primary:active,
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
 .mybtnrelated {
-  height: 260px;
+    height: 260px;
 }
 
 .mytextrelated {
-  text-transform: none; 
-  font-weight: normal !important; 
-  color: black;
+    text-transform: none;
+    font-weight: normal !important;
+    color: black;
 }
 
 .mytitlerelated {
-  margin: 10px 0 10px;
-  font-size: 14px;
+    margin: 10px 0 10px;
+    font-size: 14px;
 }
 
 .btn-secondary {
-  background-color: transparent;
-  border-color: #69b3a2;
-  color: #69b3a2;
-  border-width: small;
+    background-color: transparent;
+    border-color: #69b3a2;
+    color: #69b3a2;
+    border-width: small;
 }
 
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #69b3a2 !important;
-  border-color: #69b3a2 !important;
-  color: white;
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background-color: #69b3a2 !important;
+    border-color: #69b3a2 !important;
+    color: white;
 }
 
-.btn-secondary:active, .btn-secondary:focus {
-  background-color: #69b3a2 !important;
+.btn-secondary:active,
+.btn-secondary:focus {
+    background-color: #69b3a2 !important;
 }
 
 .btn-secondary:not(:disabled):not(.disabled).active {
-  background-color: #69b3a2 !important;
-  border-color: #69b3a2 !important;
-  color: white;
+    background-color: #69b3a2 !important;
+    border-color: #69b3a2 !important;
+    color: white;
 }
