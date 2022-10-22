@@ -4,7 +4,15 @@ body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
 
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
 p {
     line-height: 1.75;
 }
